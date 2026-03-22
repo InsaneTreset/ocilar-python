@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocilar"
+version = "0.1.0"
+description = "Official Python SDK for Ocilar — CAPTCHA solving and document extraction API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = ["requests>=2.25.0"]
+authors = [{name = "Ocilar", email = "support@ocilar.com"}]
+keywords = ["captcha", "solver", "ocr", "sat", "recaptcha", "hcaptcha", "cloudflare", "document-ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://ocilar.com"
+Documentation = "https://api.ocilar.com/api/v1/docs"
+Repository = "https://github.com/InsaneTreset/ocilar-python"
